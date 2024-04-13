@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn {
+        @apply h-[50px] rounded-[10px] text-white bg-blue-500 text-[18px] font-medium hover:opacity-90 border-[1px] disabled:bg-opacity-50
+    }
+}
+
 * {
+    
+}
+
+body {
     background-color: #f9f9f9;
 }
